@@ -1,0 +1,1 @@
+"=== TONG HOP LOG ===" > logs/tong_hop.txtGet-Content logs/clinic.log | Select-String "WARNING" >> logs/tong_hop.txtGet-Content logs/clinic.log | Select-String "ERROR" | Measure-Object >> logs/tong_hop.txt       
